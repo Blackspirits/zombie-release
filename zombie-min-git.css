@@ -22,7 +22,7 @@ h4 {
   --rounding: 12px;
   --rounding-alt: 9px;
   --rounding-large: 24px;
-  --rounding-circle: 100px;
+  --rounding-circle: 20px;
 }
 .adminDrawerLogo img,
 imgLogoIcon {
@@ -418,7 +418,6 @@ a[data-role="button"]:hover {
   margin: 0 0.25em 0 0.5em;
 }
 .listItem:not(.listItem-button) {
-  margin: 0.6em;
   padding-left: 1em;
 }
 .listItem:hover:not(.listItem-button) {
@@ -1113,7 +1112,6 @@ a[data-role="button"] {
 #loginPage .sectionTitle {
   margin-left: auto !important;
   margin-right: auto !important;
-  margin-bottom: 1.2em !important;
 }
 #loginPage .pageTitleWithDefaultLogo,
 .layout-mobile .detailImageContainer .card.portraitCard {
@@ -1381,9 +1379,9 @@ fieldset {
 }
 .checkboxIcon {
   color: rgba(var(--dark)) !important;
-  font-size: 1.4em;
-  margin-right: 1px;
-  margin-top: 2px;
+  font-size: 1.3em;
+  margin-left: 5px;
+  margin-top: 4px;
 }
 #itemDetailPage .emby-select-withcolor {
   background: rgba(0, 0, 0, 0) !important;
@@ -1391,7 +1389,7 @@ fieldset {
 .checkboxList > .emby-checkbox-label {
   display: flex;
   margin: 0.5em 0.5em 0.4em 0.4em;
-  font-size: 120%;
+  font-size: 100%;
 }
 .emby-checkbox-label {
   padding: 0 0 0 3em;
