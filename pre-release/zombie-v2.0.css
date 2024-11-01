@@ -240,7 +240,7 @@ button.emby-tab-button:nth-child(5) {
 .layout-desktop .detailPagePrimaryContainer {
   display: inline-table;
   z-index: 2;
-  left: 4em;
+  left: 6em;
 }
 .layout-desktop .detailPageSecondaryContainer {
   margin: 0 !important;
